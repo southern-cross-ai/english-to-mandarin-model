@@ -12,11 +12,11 @@ Build, train and test your translator model from scratch.
 
 To use our dataset from [Hugging Face](https://huggingface.co/SouthernCrossAI) directly in your code, you are recommended to [register](https://huggingface.co/login) your own Hugging Face account beforehand:
 
-![image-20240506163208066](/Users/yifan/Library/Application Support/typora-user-images/image-20240506163208066.png)
+![huggingface](./pics/huggingface.png)
 
 You may need to copy and paste your [Access Tokens](https://huggingface.co/settings/tokens) from your profile:
 
-![image-20240506162842543](/Users/yifan/Library/Application Support/typora-user-images/image-20240506162842543.png)
+![huggingface2](./pics/huggingface2.png)
 
 You can always download and use our datasets manually from [here](https://huggingface.co/datasets/SouthernCrossAI/English_to_Mandarin).
 
@@ -29,6 +29,12 @@ Install all dependencies through [conda](https://conda.io/projects/conda/en/late
 ```bash
 conda env create -f environment.yml
 ```
+
+---
+
+## Training Loss Example
+
+![loss](./pics/loss_ratio005_epoch20.png)
 
 ---
 

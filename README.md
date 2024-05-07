@@ -1,12 +1,8 @@
 # English to Mandation Translator
 
----
-
 ## TL;DR
 
 Build, train and test your translator model from scratch.
-
----
 
 ## Requirements
 
@@ -20,8 +16,6 @@ You may need to copy and paste your [Access Tokens](https://huggingface.co/setti
 
 You can always download and use our datasets manually from [here](https://huggingface.co/datasets/SouthernCrossAI/English_to_Mandarin).
 
----
-
 ## Install Environment
 
 Install all dependencies through [conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html):
@@ -30,13 +24,9 @@ Install all dependencies through [conda](https://conda.io/projects/conda/en/late
 conda env create -f environment.yml
 ```
 
----
-
 ## Training Loss Example
 
 ![loss](./pics/loss_ratio005_epoch20.png)
-
----
 
 ## Reference
 
@@ -52,6 +42,3 @@ conda env create -f environment.yml
 ### Find Out Other Resources From Us
 
 [Official Website](https://www.southerncross.ai) | [GitHub Repo](https://github.com/southern-cross-ai) | [Hugging Face](https://huggingface.co/SouthernCrossAI) | [Discord Group](https://discord.com/invite/nvVkJShz6K)
-
-
-
